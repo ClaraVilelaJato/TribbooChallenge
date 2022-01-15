@@ -14,7 +14,7 @@ const Header = (props) => {
               <i className="fas fa-star"></i>
             </button>
           </h1>
-          <section className="left--submenu collapse" id="collapseButons">
+          <section className="left--submenu collapse">
             <button className="btn-menu">Presupuestos</button>
             <button className="btn-menu">Planning</button>
             <button className="btn-menu">Certificaciones</button>

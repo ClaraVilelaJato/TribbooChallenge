@@ -3,6 +3,7 @@
   background-color: #f2f6fa;
   text-align: center;
   width: max-content;
+  position: fixed;
 }
 .btn {
   display: inline-block;
@@ -23,4 +24,13 @@
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.left--submenu {
+  display: flex;
+  justify-content: space-evenly;
+}
+.right-section--submenu {
+  display: flex;
+  justify-content: flex-end;
 }
