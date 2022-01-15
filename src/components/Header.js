@@ -1,3 +1,5 @@
+import "../styles/layout/header.scss";
+
 const Header = (props) => {
   return (
     <header className="container">
@@ -19,28 +21,29 @@ const Header = (props) => {
           </section>
         </div>
       </section>
-      <section className="row right-section">
-        <form className="hstack form">
-          <button className="right-section--btn btn">
-            <i className="far fa-question-circle"></i>
-          </button>
-          <button className="right-section--btn btn">
-            <i className="fas fa-share-alt"></i>
-          </button>
-          <input />
-
-          <img className="right-section--user" src="" alt="usuario" />
-        </form>
-        <section className="right-section--submenu">
-          <button className="btn-yellow right-section--submenu__button">
-            Gantt
-          </button>
-          <button className="btn-yellow right-section--submenu__button">
-            Kamban
-          </button>
-          <button className="btn-yellow right-section--submenu__button">
-            Calendario
-          </button>
+      <section>
+        <section className="row right-section">
+          <form className="hstack form">
+            <button className="right-section--btn btn">
+              <i className="far fa-question-circle"></i>
+            </button>
+            <button className="right-section--btn btn">
+              <i className="fas fa-share-alt"></i>
+            </button>
+            <input />
+            <img className="right-section--user" src="" alt="usuario" />
+          </form>
+          <section className="right-section--submenu">
+            <button className="btn-yellow right-section--submenu__button">
+              Gantt
+            </button>
+            <button className="btn-yellow right-section--submenu__button">
+              Kamban
+            </button>
+            <button className="btn-yellow right-section--submenu__button">
+              Calendario
+            </button>
+          </section>
         </section>
       </section>
     </header>

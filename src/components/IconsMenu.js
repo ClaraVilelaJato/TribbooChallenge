@@ -1,8 +1,9 @@
 import logo from "../images/logo.png";
+import "../styles/layout/iconsmenu.scss";
 
 const IconsMenu = (props) => {
   return (
-    <nav className="nav fixed-top">
+    <nav className="nav-left">
       <ul className="nav flex-column">
         <li className="first-el">
           <img className="logo" src={logo} alt="logo" />
