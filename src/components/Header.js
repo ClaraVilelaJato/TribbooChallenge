@@ -3,19 +3,19 @@ import "../styles/layout/header.scss";
 const Header = (props) => {
   return (
     <header className="container">
-      <section className="left">
+      <section className="left-section">
         <div className="title">
           <h1>
-            Planning/Nombre del Proyecto
-            <button className="btn-title">
+            Planning/ Nombre del Proyecto
+            <button className="btn-white">
               <i className="fas fa-chevron-down"></i>
             </button>
             <button className="btn-title">
               <i className="fas fa-star"></i>
             </button>
           </h1>
-          <section className="left--submenu collapse">
-            <button className="btn-menu">Presupuestos</button>
+          <section className="left--submenu collapsed">
+            <button className="btn-yellow">Presupuestos</button>
             <button className="btn-menu">Planning</button>
             <button className="btn-menu">Certificaciones</button>
           </section>

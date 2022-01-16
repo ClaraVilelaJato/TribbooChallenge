@@ -1,6 +1,3 @@
 @import "core/variables.scss";
 @import "core/reset.scss";
-
-body {
-  font-family: "Noto Sans", sans-serif;
-}
+@import "~bootstrap/scss/bootstrap";
